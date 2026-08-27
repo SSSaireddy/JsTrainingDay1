@@ -1,0 +1,230 @@
+1. What is a variable in JavaScript?
+   >>> A variable in JavaScript is used to store a value.
+
+2. What are the three keywords used to create variables?
+    >>> Var, Let, const
+
+3. Write the syntax to create a variable using var.
+    >>> var age = 22;
+
+4. Write the syntax to create a variable using let.
+    >>> let name = "Unknown";
+
+5. Write the syntax to create a variable using const.
+    >>> const country = "India";
+
+6. What is declaration?
+    >>> Declaration means creating a variable by specifying its name, without assigning a value.
+        var age
+        let age
+        const age
+
+7. What is initialization?
+    >>> Initialization means assigning a value to a variable when it is created.
+        var age = 22;
+        let age = 22;
+        const age = 22;
+
+8. What is reassignment?
+    >>> Reassignment means assigning a new value to an already existing variable.
+        var age = 22;
+        age = 23;
+
+9. What is redeclaration?
+    >>> Redeclaration means declaring the same variable again in the same scope.
+        var age = 22;
+        var age = 23;
+
+10. Which keyword allows redeclaration?
+    >>>The var keyword allows redeclaration in the same scope.
+
+11. Which keyword allows reassignment?
+    >>> var and let keyword allows reassignment.
+
+12. Which keyword requires initialization when declared?
+    >>> const keyword requires initialization when declared.
+
+13. Identify the declaration and initialization:
+    let age = 25;
+    >>> Declaration: let age
+        Initialization: = 25
+
+14. What is the value of a?
+    var a = 100;
+    console.log(a);
+    >>> 100
+
+15. Change the value of this variable to 200:
+    let number = 100;
+    >>> number = 200;
+        console.log(number);
+        Output = 200;
+
+16. What will be the output?
+    var a = 10;
+    console.log(a);
+    >>> Output = 10;
+
+17. What will be the output?
+    var a = 10;
+    a = 20;
+    console.log(a);
+    >>> Output = 20;
+
+18. What will be the output?
+    var a = 10;
+    var a = 30;
+    console.log(a);
+    >>> Output = 30;
+
+19. Write a var variable named name with the value "John".
+    >>> var name = "John";
+
+20. Create a var variable named price with the value 500.
+    >>> var price = 500;
+
+21. Reassign price from 500 to 1000.
+    >>> var price = 500;
+        price = 1000;
+
+22. What will be the output?
+    var x = 50;
+    x = 100;
+    console.log(x);
+    >>> Output = 100;
+
+23. Can a var variable be reassigned?
+    >>> Yes, var variable can be reassigned.
+
+24. Can a var variable be redeclared?
+    >>> Yes, var variable can be redeclared.
+
+25. Write an example of var redeclaration.
+    >>> var city = "Hyderabad";
+        var city = "Bangalore";
+        console.log(city);
+
+26. Create a let variable named age with the value 25.
+    >>> let age = 25;
+
+27. What will be the output?
+    let age = 20;
+    age = 30;
+    console.log(age);
+    >>> output = 30;
+
+28. Can a let variable be reassigned?
+    >>> Yes, let variable can be reassigned.
+29. Can a let variable be redeclared?
+    >>> No, let variable cannot be redeclared in the same scope.
+30. Find the error:
+    let name = "John";
+    let name = "David";
+    >>>  Error: let cannot be redeclared in the same scope
+
+31. Create a let variable called city and assign "Chennai".
+    >>> let city = "Chennai";
+
+32. Change the value of city to "Salem".
+    >>> let city = "Chennai";
+        city = "Salem";
+
+33. What will be the output?
+    let x = 10;
+    x = 50;
+    console.log(x);
+    >>> 50;
+
+34. Write a let variable called salary with the value 25000.
+    >>> let salary = 25000;
+
+35. Reassign salary to 30000.
+    >>> let salary = 25000;
+        salary = 30000;
+
+36. Create a const variable called pi with the value 3.14.
+    >>> const pi = 3.14;
+
+37. Can a const variable be reassigned?
+    >>> No, const variable cannot be reassigned.
+
+38. Can a const variable be redeclared?
+    >>> No, const variable cannot be redeclared in the same scope.
+
+39. What is wrong with this code?
+    const age;
+    age = 25;
+    >>>  const variable requires initialization at the time of declaration
+
+40. What happens here?
+    const price = 500;
+    price = 1000;
+    >>> Error - a const variable cannot be reassigned.
+
+41. Create a const variable called country with the value "India".
+    >>> const country = "India";
+
+42. What will be the output?
+    const x = 100;
+    console.log(x);
+    >>> 100;
+
+43. Which keyword should you use if the value should not be reassigned?
+    >>> const
+
+44. What is the difference between let and const?
+    >>> let - value can be changed.
+        const - value cannot be changed.
+
+45. What is the difference between var and const?
+    >>> var - can be reassigned and redeclared.
+        const - cannot be reassigned or redeclared.
+
+46. Write JavaScript code to print Hello World using console.log().
+    >>> const x = "Hello World";
+        console.log(x);
+
+47. Write JavaScript code to print the number 500 using console.log().
+    >>> var x = 500;
+        console.log(x);
+
+48. What is the purpose of console.warn()?
+    >>> console.warn() is used to display a warning message in the console.
+
+49. What is the purpose of console.error()?
+    >>> console.error() is used to display an error message in the console.
+
+50. What is the purpose of each?
+    alert() --->>> Shows a message in a popup box.
+    prompt() --->>> Takes input from the user.
+    confirm() --->>> Asks the user to confirm OK or Cancel.
+    document.writeln() --->>> Writes content directly to the webpage.
+    console.log() -->>> Prints information in the browser console.
+
+<<<--- Practical Questions --->>>
+
+i>Create a variable for student name, age, and mark and print all three.
+    >>> let studentName = "Sai";
+        let age = 25;
+        let mark = 85;
+
+        console.log(studentName);
+        console.log(age);
+        console.log(mark);
+
+ii> Ask the user's name using prompt() and display it using alert().
+    >>> let name = prompt("Enter your name:");
+        alert(name);
+
+iii> Ask the user's age using prompt() and print it using console.log().
+    >>> let age = prompt("Enter your age:");
+        console.log(age);
+
+iv> Ask the user a question using confirm().
+    >>> let answer = confirm("Are you learning JavaScript?");
+        console.log(answer);
+
+v> Ask the user's name and display it on the webpage using document.writeln().
+    >>> let name = prompt("Enter your name:");
+    document.writeln(name);
+
